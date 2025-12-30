@@ -1,0 +1,58 @@
+.container {
+    margin-top: 3rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.widget {
+    background-color: var(--light-blue-highlights);
+    color: var(--bg);
+
+    border-radius: 16px;
+    width: 95px;
+    height: 72px;
+
+    padding-top: 8px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.githubWidget {
+    background-color: #1D1C1C;
+
+
+    border-radius: 16px;
+    width: 95px;
+    height: 72px;
+
+    padding-top: 8px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.emailWidget {
+    background-color: #EB4132;
+     border-radius: 16px;
+    width: 95px;
+    height: 72px;
+
+    padding-top: 8px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.linkedinWidget {
+     background-color: #2F76CB;
+     border-radius: 16px;
+    width: 95px;
+    height: 72px;
+
+    padding-top: 8px;
+    font-size: 14px;
+    font-weight: 500;
+}
+/* .icon {
+    border-radius: 50%;
+} */

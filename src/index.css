@@ -1,0 +1,18 @@
+
+
+:root  {
+  --bg: #0F2C5B;
+  --light-blue-highlights: #A4BFDF;
+  --light-text: #E6E6E6;
+  --secondary-text: #A0A0A0;
+  --warm-highlights: #FBD850;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: var(--light-text)
+}

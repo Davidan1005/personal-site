@@ -1,0 +1,25 @@
+.container {
+    margin-top: 6rem;
+    height: 100px;
+    background-color: var(--warm-highlights);
+    
+
+    margin: -3rem;
+    margin-top: 6rem;
+
+    color: var(--bg);
+    font-size: 18;
+    font-weight: 400;
+    
+
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    padding-left: 1rem;
+    
+}
+
+.text {
+    text-align: justify;
+    
+}
