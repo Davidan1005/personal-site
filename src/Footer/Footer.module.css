@@ -15,11 +15,11 @@
     display: flex;
     justify-content:left;
     align-items: center;
-    padding-left: 1rem;
+    padding-left: 40px;
     
 }
 
 .text {
     text-align: justify;
-    
+
 }

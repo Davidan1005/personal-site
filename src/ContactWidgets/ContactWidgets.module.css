@@ -30,6 +30,23 @@
     padding-top: 8px;
     font-size: 14px;
     font-weight: 500;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+
+    transition:
+        background-color 0.2s ease,
+        transform 0.1s ease,
+        box-shadow 0.1s ease;
+    }
+
+.githubWidget:hover, .emailWidget:hover, .linkedinWidget:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.githubWidget:active, .githubWidget:active, .linkedinWidget:active {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 
 .emailWidget {
@@ -42,6 +59,7 @@
     font-size: 14px;
     font-weight: 500;
 }
+
 
 .linkedinWidget {
      background-color: #2F76CB;

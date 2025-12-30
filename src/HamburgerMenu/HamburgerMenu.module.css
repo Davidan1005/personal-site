@@ -1,0 +1,55 @@
+/* Hide menu by default */
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 200px;
+  background: var(--bg);
+  display: flex;
+  flex-direction: column;
+  padding-top: 4rem;
+  transform: translateX(-100%); /* hidden */
+  transition: transform 0.3s ease;
+  z-index: 50;
+}
+
+/* Show menu when open */
+.menu.open {
+  transform: translateX(0);
+}
+
+/* Style links */
+.menu a {
+  padding: 1rem;
+  color: var(--light-text);
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.menu a:hover {
+  background-color: var(--light-blue-highlights);
+  border-radius: 4px;
+}
+
+/* Hamburger button */
+.hamburger {
+  background-color: #1E3A8A;
+  background: none;
+  border: none;
+  color: var(--light-text);
+  cursor: pointer;
+  z-index: 60;
+  display: none; /* hide on desktop */
+}
+
+/* Show hamburger only on mobile */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+  
+  /* Optional: hide normal nav if you have one */
+  /* .desktop-nav { display: none; } */
+}
