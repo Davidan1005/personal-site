@@ -10,11 +10,21 @@
  border-radius: 8px;
  border: none;
  cursor: pointer;
+ display: none;
  transition: 
   background-color 0.2s ease,
   transform 0.15s ease,
   box-shadow 0.15s ease;
 
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+  
+  /* Optional: hide normal nav if you have one */
+  /* .desktop-nav { display: none; } */
 }
 
 .hamburger:hover{
@@ -52,3 +62,40 @@
     background-color: #4F75E1;
    
 }
+
+.navbar{
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    border-radius: 8px; 
+    background-color: #1E3A8A;
+    display: flex;
+    
+    overflow: hidden;
+    
+
+  }
+
+
+  .navbar a{
+    
+    padding: 1rem;
+    color: var(--light-text);
+    text-align: center;
+    /* flex: 1; */
+    
+    
+    width: 80px;
+    text-decoration: none;
+    transition: 
+          background-color 0.2s ease,
+          transform 0.15s ease,
+          box-shadow 0.15s ease;
+  }
+
+  .navbar a:hover {
+    background-color: #4F75E1;
+    
+  }}

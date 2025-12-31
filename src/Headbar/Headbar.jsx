@@ -8,14 +8,15 @@ export default function Headbar() {
         <>
         <div className={styles.container}>
 
-       
-            {/* <button className={styles.hamburger}>
-                <FaBars size = {28} />
-            </button> */}
             <div className={styles.hamburger}>
-
                 <HamburgerMenu />
             </div>
+
+            <nav className={styles.navbar}>
+                <a href="#projects">Projects </a>
+                <a href="#about">About</a>
+                <a href="#exploring">Exploring</a>
+            </nav>
 
             <a href="#projects" style={{textDecoration: "none"}}>
                 <div className={styles.View_work}>
