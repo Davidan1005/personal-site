@@ -15,5 +15,10 @@
     font-weight: 400;
 
     display: flex;
+    flex-direction: column;
     justify-content:left;
+}
+
+.header{
+    margin-bottom: 24px;
 }

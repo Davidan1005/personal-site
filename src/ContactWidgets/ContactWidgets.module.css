@@ -6,26 +6,17 @@
     justify-content: space-between;
 }
 
-.widget {
-    background-color: var(--light-blue-highlights);
+.githubWidget {
+    background-color: #F5F5F5;
     color: var(--bg);
 
-    border-radius: 16px;
-    width: 95px;
-    height: 72px;
-
-    padding-top: 8px;
-    font-size: 14px;
-    font-weight: 500;
-}
-
-.githubWidget {
-    background-color: #1D1C1C;
-
 
     border-radius: 16px;
-    width: 95px;
+    width: 25%;
     height: 72px;
+
+    display: flex;
+    flex-direction: column;
 
     padding-top: 8px;
     font-size: 14px;
@@ -39,7 +30,52 @@
         box-shadow 0.1s ease;
     }
 
-.githubWidget:hover, .emailWidget:hover, .linkedinWidget:hover {
+.emailWidget {
+    background-color:#FFFFFF;
+
+    color: var(--bg);
+    border-radius: 16px;
+    width: 25%;
+    height: 72px;
+
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 8px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+.linkedinWidget {
+    background-color:#FFFFFF;
+    color: var(--bg);
+    border-radius: 16px;
+    width: 25%;
+    height: 72px;
+
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 8px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+
+.githubWidget:hover{
+    background-color: #24292F ;
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+.linkedinWidget:hover{
+    background-color: #0A66C2 ;
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+.emailWidget:hover{
+    background-color: #EA4335 ;
     transform: translateY(-4px);
     box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
@@ -49,28 +85,3 @@
     box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 
-.emailWidget {
-    background-color: #EB4132;
-     border-radius: 16px;
-    width: 95px;
-    height: 72px;
-
-    padding-top: 8px;
-    font-size: 14px;
-    font-weight: 500;
-}
-
-
-.linkedinWidget {
-     background-color: #2F76CB;
-     border-radius: 16px;
-    width: 95px;
-    height: 72px;
-
-    padding-top: 8px;
-    font-size: 14px;
-    font-weight: 500;
-}
-/* .icon {
-    border-radius: 50%;
-} */

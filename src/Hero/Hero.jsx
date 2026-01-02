@@ -8,10 +8,9 @@ export default function Hero () {
                 <img 
                 src={profilePic}
                 alt="profile"
-                className={styles.image}
-                >
+                className={styles.image}>
                 </img>
-                <h1 className={styles.im}>
+                <h1 className={styles.im} class="box">
                     I'm
                 </h1>
                 <h1 className={styles.name}>
