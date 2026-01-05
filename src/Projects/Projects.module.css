@@ -16,3 +16,9 @@
 
 }
 
+@media (min-width: 1200px) {
+  .container {
+    height: 150px; /* taller cards on widescreen */
+  }
+}
+

@@ -6,4 +6,55 @@
   
   padding-top: 1rem;
   text-align: center;
+  display:  flex;
+  flex-direction: column;
+
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+}
+
+
+@media (min-width: 1200px) {
+
+
+  .main{
+    flex-direction: row;
+    
+  }
+
+  .left{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 3rem;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    justify-content: space-between;
+  }
+
+  .middle{
+    display: flex;
+    flex-direction: column;
+    width:25%;
+  
+    padding: 2rem;
+    padding-bottom: 0px;
+    
+  }
+
+
+  .right{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 3rem;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+
+
+
 }

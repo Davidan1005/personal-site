@@ -24,11 +24,24 @@ export default function App() {
     <>
       <div className={styles.page}>
         <Headbar />
-        <Hero />
-        <ContactWidgets />
-        <Projects />
-        <About />
-        <Exploring />
+
+        <div className={styles.main}>
+
+          <div className={styles.left}>
+            <Hero />     
+            <ContactWidgets />
+          </div>
+
+          <div className={StyleSheet.middle}>
+            <Projects className={styles.card} />
+            <About className={styles.card}/>
+          </div>
+          
+          <div className={styles.right}>
+              <Exploring />
+          </div>
+          
+        </div>
       </div>
       <Footer />
     </>

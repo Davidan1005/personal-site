@@ -72,6 +72,8 @@
     border-radius: 8px; 
     background-color: #1E3A8A;
     display: flex;
+
+    height: 50px;
     
     overflow: hidden;
     

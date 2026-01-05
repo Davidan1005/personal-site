@@ -10,14 +10,12 @@ export default function Hero () {
                 alt="profile"
                 className={styles.image}>
                 </img>
-                <h1 className={styles.im} class="box">
-                    I'm
-                </h1>
-                <h1 className={styles.name}>
+                <h1 className={styles.header}>
+                    Hello, I'm <br />
                     David Nduka
                 </h1>
-                <h1 className={styles.title}>
-                    Software Engineer/ Electrical engineering student
+                <h1 className={styles.intro}>
+                    Software Engineer & Electrical Engineering student in Nigeria | Robotics enthusiast
                 </h1>
             </div>
         </>
