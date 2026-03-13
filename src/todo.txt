@@ -1,0 +1,8 @@
+1. make projects visible and interactable on site
+2. change color scheme
+3. make background a better color
+4. change layout/ get rid of hamburger as the dropdown is unnecessary
+5. change to monotype font
+
+
+## keep in mind that industrial animations are largely overkill. they are also difficult to change
